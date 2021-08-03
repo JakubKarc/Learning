@@ -1,5 +1,7 @@
 from math import *
 
+print("For some key words type \"help\"")
+
 # ----------------------------------------------------------------
 # Inicializes the user input
 def get_input():
@@ -89,12 +91,23 @@ def hit(noun):
     msg ="There is no {} here.".format(noun)
   return msg
 
+# Func for help
+def help(noun):
+    print("Here are keywords that you can use: ")
+    print("""
+   ------------------------------------------------------------------------------
+   |  say: and something that you want to say.                                  |
+   |  examine: to get some info about a creature + the name of the creature.    |
+   |  hit: to hit somethig.                                                     |
+   ------------------------------------------------------------------------------""")
+
 # ------------------------------------------------------------------
 # Main dictionary for commands
 verb_dict = {
   "say": say,
   "examine": examine,
   "hit": hit,
+  "help":help,
 }
 
 # -------------------------------------------------------------------
