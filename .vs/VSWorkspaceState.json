@@ -5,8 +5,10 @@
     "\\Console Game\\ConsoleGame",
     "\\JS Calculator",
     "\\Python learning",
-    "\\Python projects"
+    "\\Python projects",
+    "\\Python projects\\Hangman",
+    "\\Python projects\\Hangman\\__pycache__"
   ],
-  "SelectedNode": "\\Python projects\\Rock Paper Scissors.py",
+  "SelectedNode": "\\Python projects\\Hangman\\Hangman.py",
   "PreviewInSolutionExplorer": false
 }

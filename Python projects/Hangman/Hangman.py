@@ -57,7 +57,7 @@ def hangman():
                 lives -= 1
                 print(">> Letter is not in the word.")
 
-        elif user_letter in used_letters:
+        elif used_letter in used_letters:
             print(">> You have already guessed that character. Please try again.")
 
         else:
